@@ -9,7 +9,7 @@ Filters/Kernels
   Filters/Kernels are layers that extract specific features from the input image. Features can be varied from edges, lines, patterns, objects, etc.
 
 Epochs
-  Epochs
+  Epoch indicate the total input data that is fed to the network both forward and backward once. We need to run multiple epochs to properly train the data.
 
 Feature Maps
   Feature Maps are nothing but kernels which are used to extract specific features from the input image such as edges, lines, patterns etc
@@ -24,3 +24,4 @@ Receptive field
   Receptive field can be defined as the number of input pixels seen by a particular pixel in the output layer. Here seen can be interpreted as the features extracted by the kernel for the particular input pixels.
 
 Activation function
+ After convolution is done from Kernel there is a need to either interpret the value as maximum or minimum depending on the type of pattern, to achieve this we use Activation function.
